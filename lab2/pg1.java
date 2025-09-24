@@ -1,11 +1,8 @@
-// Define the Box class
 class Box {
-    // Instance variables
     double width;
     double height;
     double depth;
 
-    // Method to compute and print the volume
     void volume() {
         double vol = width * height * depth;
         System.out.println("Volume of the box is: " + vol);
@@ -13,7 +10,7 @@ class Box {
 }
 
 // Main class
-public class BoxTest {
+public class pg1 {
     public static void main(String[] args) {
         // Create first Box instance
         Box box1 = new Box();
