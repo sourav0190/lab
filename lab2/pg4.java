@@ -2,23 +2,21 @@ import java.util.Scanner;
 
 class AreaCalculator {
 
-    // Method to compute area of a square
+
     double area(double side) {
         return side * side;
     }
 
-    // Method to compute area of a rectangle
+  
     double area(double length, double breadth) {
         return length * breadth;
     }
 
-    // Method to compute area of a triangle
+
     double area(double base, double height, boolean isTriangle) {
         return 0.5 * base * height;
     }
 }
-
-// Box class with a constructor
 class Box {
     double length, breadth, height;
 

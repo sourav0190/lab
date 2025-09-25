@@ -1,15 +1,19 @@
 import java.util.Scanner;
+
 class Box {
     double length, breadth, height;
 
+    // Default constructor
     Box() {
         length = breadth = height = 0;
     }
 
+    // Cube constructor
     Box(double side) {
         length = breadth = height = side;
     }
 
+    // Rectangular box constructor
     Box(double l, double b, double h) {
         length = l;
         breadth = b;
@@ -40,7 +44,7 @@ public class pg5 {
         System.out.print("Enter height of box: ");
         double h = sc.nextDouble();
         Box box3 = new Box(l, b, h);
-        System.out.println("Volume of Box3 (rectangle box): " + box3.volume());
+        System.out.println("Volume of Box3 (rectangular box): " + box3.volume());
 
         sc.close();
     }
